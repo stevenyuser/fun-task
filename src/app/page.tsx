@@ -7,7 +7,6 @@ export default function Home() {
   const [animate, setAnimate] = useState(false);
 
   const setKeyword = (keyword: string) => {
-    const oldestKeyword = keywords[0];
     setKeywords([keyword, ...keywords]);
     setAnimate(true);
   };
