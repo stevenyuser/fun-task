@@ -7,7 +7,7 @@ export default function Home() {
   const [animate, setAnimate] = useState(false);
 
   const setKeyword = (keyword: string) => {
-    setKeywords([keyword, ...keywords]);
+    setKeywords([keyword, keywords[0]]);
     setAnimate(true);
   };
 
@@ -48,6 +48,7 @@ export default function Home() {
                       {keyword},
                     </li>
                   ))}
+                  <li className="text-white">framework,</li>
                 </ul>
               </span>
             </span>
