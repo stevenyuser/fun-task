@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function Home() {
-  const [keywords, setKeywords] = useState<string[]>(["Framework"]);
+  const [keywords, setKeywords] = useState<string[]>(["framework"]);
   const [animate, setAnimate] = useState(false);
 
   const setKeyword = (keyword: string) => {
@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   const textColorDictionary = {
-    Framework: "text-white",
+    framework: "text-white",
     "Next.js": "text-gray-300",
     React: "text-blue-500",
     Nuxt: "text-green-600",
@@ -57,7 +57,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Next.js")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -69,7 +69,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("React")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -81,7 +81,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Nuxt")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -93,7 +93,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Svelte")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -105,7 +105,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Vue")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -121,7 +121,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Gatsby")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -133,7 +133,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Astro")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -145,7 +145,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Python")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
@@ -163,7 +163,7 @@ export default function Home() {
         <div
           className="h-32 w-32 p-10 group"
           onMouseEnter={() => setKeyword("Angular")}
-          onMouseLeave={() => setKeyword("Framework")}
+          onMouseLeave={() => setKeyword("framework")}
         >
           <svg
             viewBox="0 0 1 1"
