@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <main className="h-screen flex items-center justify-center bg-black text-white">
+    <main className="h-screen flex flex-col items-center justify-center bg-black text-white">
       <div className="grid place-items-center grid-cols-6 grid-rows-2 text-center divide-x divide-y divide-slate-500/25 border border-slate-400/25">
         {/* <p>{keywords}</p> */}
         <div className="col-span-2 h-32 w-64 flex items-center justify-center">
@@ -198,6 +198,9 @@ export default function Home() {
             </svg>
           </a>
         </div>
+      </div>
+      <div>
+        <h1 className="text-sm p-2">Created by Steven Yu</h1>
       </div>
     </main>
   );
