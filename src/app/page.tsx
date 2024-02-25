@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <main className="h-screen flex flex-col items-center justify-center bg-black text-white">
+    <main className="h-screen flex flex-col flex-1 items-center justify-center bg-black text-white">
       <div className="flex flex-col md:hidden text-lg font-medium p-2">
         <span>
           Your{" "}
